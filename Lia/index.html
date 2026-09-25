@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Para Lia 🌸</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- PANTALLA 1 -->
+        <section class="screen active" id="screen-intro">
+
+            <div class="content">
+
+                <div class="lily">🌸</div>
+
+                <p class="small-text">
+                    Hola, Adelia
+                </p>
+
+                <h1>
+                    Hice algo<br>
+                    para vos.
+                </h1>
+
+                <p class="text">
+                    la verdad es que me llevó bastante tiempo hacerlo, pero quería que lo veas:
+                </p>
+
+                <p class="highlight">
+                    realmente queria hacer algo especial, ya que no queria algo simple, sabes que me gusta complicarme la vida jaja 😂
+                </p>
+
+                <button class="main-button" id="start-button">
+                    Continuar
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 2 -->
+        <section class="screen" id="screen-loading">
+
+            <div class="content">
+
+                <div class="terminal-icon">
+                    &lt;/&gt;
+                </div>
+
+                <h2>
+                    Cargando Chisme importante... 😏
+                </h2>
+
+                <div class="progress-container">
+
+                    <div
+                        class="progress-bar"
+                        id="progress-bar"
+                    ></div>
+
+                </div>
+
+                <p id="progress-number">
+                    0%
+                </p>
+
+                <div
+                    class="error-message"
+                    id="error-message"
+                >
+                    ⚠️ ERROR<br><br>
+
+                    El programador habla demasiado.
+
+                    <br><br>
+
+                    <span>
+                        Intentando solucionar el problema...
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 3 -->
+        <section class="screen" id="screen-story-1">
+
+            <div class="content">
+
+                <div class="lily small">
+                    🌸
+                </div>
+
+                <h2>
+                    Creo que somos bastante diferentes.
+                </h2>
+
+                <p class="text">
+                    Yo soy el que puede hablarte a cualquier hora,
+                    mandarte mensajes por cualquier cosa
+                    y responderte prácticamente al instante.
+                </p>
+
+                <p class="text">
+                    Y vos...
+                    bueno...
+                    vos sos vos. 😂
+                </p>
+
+                <p class="text">
+                    Tus respuestas suelen ser cortas,
+                    simples y bastante directas.
+                </p>
+
+                <div class="chat-bubble">
+                    Mientras yo probablemente ya escribí
+                    tres párrafos...
+                    <br><br>
+                    vos:
+                    <strong>“Bueno”</strong>
+                    o
+                    <strong>“Entiendo”</strong>
+                    😠
+                </div>
+
+                <button
+                    class="main-button next-button"
+                    data-next="screen-story-2"
+                >
+                    Seguir
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 4 -->
+        <section class="screen" id="screen-story-2">
+
+            <div class="content">
+
+                <h2>
+                    Pero entendí algo.
+                </h2>
+
+                <p class="text">
+                    Nunca sentí que eso significara
+                    que no te importaba.
+                </p>
+
+                <p class="text">
+                    Simplemente somos diferentes
+                    para expresarnos.
+                </p>
+
+                <p class="text">
+                    Sos tranquila.
+                    Reservada.
+                </p>
+
+                <p class="text">
+                    Quizás te cuesta expresar
+                    algunas cosas.
+                </p>
+
+                <p class="text">
+                    Y no siempre sé qué estás pensando.
+                </p>
+
+                <button
+                    class="main-button next-button"
+                    data-next="screen-night"
+                >
+                    Seguir
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 5 -->
+        <section class="screen night" id="screen-night">
+
+            <div class="content">
+
+                <div class="moon">
+                    🌙
+                </div>
+
+                <p class="small-text">
+                    Con el tiempo...
+                </p>
+
+                <h2>
+                    Empezamos a hablar más seguido.
+                </h2>
+
+                <p class="text">
+                    Seguramente porque soy muy charlatan xd, y me gusta hablar de cualquier cosa, y vos sos muy buena escuchando, y eso me hace sentir bien.
+                </p>
+
+                <p class="text">
+                    Y ahora tenemos nuestras llamadas
+                    durante la noche.
+                </p>
+
+                <p class="text">
+                    Y hay algo que quizás parezca
+                    un poco tonto...
+                </p>
+
+                <p class="highlight">
+                    pero para mí significa bastante.
+                </p>
+
+                <button
+                    class="main-button next-button"
+                    data-next="screen-night-2"
+                >
+                    Seguir
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 6 -->
+        <section class="screen night" id="screen-night-2">
+
+            <div class="content">
+
+                <p class="text">
+                    Se que siempre te pido seguir hablando y te pido:
+                </p>
+
+                <div class="chat-bubble special">
+                    “¿Dormimos así?”
+                </div>
+
+                <p class="text">
+                    No porque piense que realmente
+                    estamos juntos.
+                </p>
+
+                <p class="text">
+                    Sino porque estás lejos.
+                </p>
+
+                <p class="text">
+                    Y tener tu celular ahí...
+                    saber que estás del otro lado...
+                </p>
+
+                <p class="highlight">
+                    hace que por un rato se sienta
+                    como si estuvieras acá.
+                </p>
+
+                <p class="text">
+                    Aunque sea a través de una pantalla.
+                </p>
+
+                <button
+                    class="main-button next-button"
+                    data-next="screen-distance"
+                >
+                    Seguir
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 7 -->
+        <section class="screen" id="screen-distance">
+
+            <div class="content">
+
+                <h2>
+                    Hay algo que no puedo ignorar.
+                </h2>
+
+                <p class="text">
+                    Estamos lejos.
+                </p>
+
+                <div class="distance-map">
+
+                    <div class="map-line"></div>
+
+                    <div class="location location-left">
+                        <span>📍</span>
+                    </div>
+
+                    <div class="heart-center">
+                        <span class="heart-symbol">❤️</span>
+                        <span class="lily-symbol">🌸</span>
+                    </div>
+
+                    <div class="location location-right">
+                        <span>📍</span>
+                    </div>
+
+                </div>
+
+                <p class="text">
+                    Y sé que una relación a distancia
+                    no sería fácil.
+                </p>
+
+                <p class="text">
+                    Pero no quiero dejar de conocerte
+                    solamente porque estamos lejos.
+                </p>
+
+                <button
+                    class="main-button next-button"
+                    data-next="screen-question"
+                >
+                    Seguir
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PANTALLA 8 -->
+        <section class="screen" id="screen-question">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <p class="small-text">
+                    Entonces...
+                </p>
+
+                <h1>
+                    ¿Querés intentarlo conmigo?
+                </h1>
+
+                <p class="text">
+                    No sé exactamente cómo va a ser.
+                </p>
+
+                <p class="text">
+                    No sé cuánto nos va a costar.
+                </p>
+
+                <p class="highlight">
+                    Pero sí sé algo:
+                    Quiero animarme. ❤️
+                </p>
+
+                <p class="text">
+                    Quiero darlo todo por vos. 
+                </p>
+
+                <p class="text">
+                    Porque me gustas, y mucho.
+                </p>
+
+                <p class="text">
+                    No le tengo miedo a la distancia, ni a los problemas que puedan surgir.
+                </p>
+
+                <p class="text">
+                    Porque se que si estamos juntos, vamos a poder superarlos.
+                </p>
+
+                <p class="text">
+                    No soy de los que ponen un freno a lo que sienten, pasaran los años y este sentimiento jamas se ira, solamente seguira creciendo.
+                </p>
+                
+                <p class="highlight">
+                    Asi que te lo digo por aca, y si quieres te lo digo por llamada, por mensaje en persona, por donde quieras.
+                </p>
+
+                <p class="highlight">
+                    Quieres intentarlo conmigo? ❤️
+                </p>
+
+                <div class="answer-buttons">
+
+                    <button
+                        class="yes-button"
+                        id="yes-button"
+                    >
+                        🌸 Sí
+                    </button>
+
+                    <button
+                        class="no-button"
+                        id="no-button"
+                    >
+                        🌸 No
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESPUESTA AFIRMATIVA -->
+        <section class="screen" id="screen-yes">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <p class="small-text">
+                    Entonces es un sí??
+                </p>
+
+                <h1>
+                    Me hace muy feliz. ❤️
+                </h1>
+
+                <p class="text">
+                    Gracias por intentarlo conmigo.
+                    No te prometo que todo vaya a ser perfecto,
+                    pero siempre voy a estar dando lo mejor de MI para VOS.
+                </p>
+
+                <p class="text">
+                    Quiero seguir conociéndote,
+                    compartir mis días con vos
+                    y hacer todo lo posible para acercarme mas a vos,
+                    incluso en esta distancia.
+                </p>
+
+                <div class="agreement-layout">
+                    <div class="agreement">
+                    <p class="agreement-title">
+                        Nuestro pequeño acuerdo, firma sherk, firma (?
+                    </p>
+
+                    <p>
+                        Hablar con honestidad, tener paciencia
+                        y no dejar que un día difícil decida
+                        por nosotros.
+                    </p>
+
+                    <p>
+                        Cuidar lo que estamos construyendo,
+                        respetar nuestros tiempos
+                        y seguir eligiéndonos de a poco.
+                    </p>
+
+                    <p>
+                        No dejar que la distancia nos separe.
+                    </p>
+
+                    <p>
+                        Si hay algo que nos molesta, hablarlo y no guardarlo.
+                    </p>
+
+                    <p>
+                        Tratar de ayudarnos a crecer y mejorar como personas, y no dejar que los problemas nos superen.
+                    </p>
+
+                    <p>
+                        Ser cariñosos y demostrar lo que sentimos, aunque sea a través de una pantalla. y en persona ya sabes jeje 😏😏 
+                        yo te adverti como era eh! jajaja
+                    </p>
+
+                    <p>
+                        Y, sobre todo, disfrutar esto sin
+                        exigirnos tener todas las respuestas hoy.
+                    </p>
+
+                    </div>
+
+                </div>
+
+                <p class="highlight">
+                    Así que sí: quiero intentarlo con vos.
+                    ❤️
+                </p>
+
+                <div
+                    class="contract-gif visible"
+                    id="contract-gif"
+                >
+                    <img
+                        src="assets/gatito%20anotando.gif"
+                        alt="Gatito anotando"
+                    >
+                </div>
+
+                <label class="agreement-check">
+                    <input
+                        type="checkbox"
+                        id="agreement-checkbox"
+                    >
+                    <span>
+                        Acepto este acuerdo.
+                    </span>
+                </label>
+
+                <button
+                    class="main-button accept-button"
+                    id="accept-button"
+                    type="button"
+                    disabled
+                >
+                    ACEPTO
+                </button>
+
+                <p
+                    class="acceptance-message"
+                    id="acceptance-message"
+                    role="status"
+                    aria-live="polite"
+                >
+                    Acuerdo aceptado. ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- CHAT DESPUES DE ACEPTAR -->
+        <section class="screen" id="screen-accepted-chat">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <p class="small-text">
+                    Un último mensaje
+                </p>
+
+                <h2>
+                    Si querés, escribime algo.
+                </h2>
+
+                <div
+                    class="message-box"
+                    id="acceptance-chat"
+                >
+                    <label for="accepted-message">
+                        Lo que quieras, lo que sientas, lo que quieras decirme. ❤️:
+                    </label>
+
+                    <textarea
+                        id="accepted-message"
+                        rows="5"
+                        maxlength="1000"
+                        placeholder="Escribí tu mensaje..."
+                    ></textarea>
+
+                    <button
+                        class="main-button"
+                        id="send-accepted-message-button"
+                        type="button"
+                    >
+                        Enviar mensaje
+                    </button>
+
+                    <p
+                        class="message-status"
+                        id="accepted-message-status"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- RESPUESTA NEGATIVA -->
+        <section class="screen" id="screen-no">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <p class="small-text">
+                    Está bien
+                </p>
+
+                <h1>
+                    No voy a presionarte.
+                </h1>
+
+                <p class="text">
+                    Gracias por leer todo esto de todas formas.
+                    Lo que siento por vos no depende de que
+                    respondas como yo espero.
+                </p>
+
+                <p class="highlight">
+                    Lo importante es que seas sincera conmigo.
+                </p>
+
+                <button class="main-button" id="restart-no-button">
+                    Volver a leerlo
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- MENSAJE DESPUES DE LA RESPUESTA NEGATIVA -->
+        <section class="screen" id="screen-final-no">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <p class="small-text">
+                    Gracias por ser sincera
+                </p>
+
+                <h1>
+                    Te aprecio mucho.
+                </h1>
+
+                <p class="text">
+                    Gracias por tu sinceridad. No te preocupes,
+                    sé respetar tus decisiones.
+                </p>
+
+                <p class="highlight">
+                    Eso no va a cambiar que te quiero mucho. ❤️
+                </p>
+
+                <div class="message-box">
+                    <label for="feeling-message">
+                        Si querés, podés contarme qué sentís:
+                    </label>
+
+                    <textarea
+                        id="feeling-message"
+                        rows="5"
+                        maxlength="1000"
+                        placeholder="Escribí tu mensaje..."
+                    ></textarea>
+
+                    <button
+                        class="main-button"
+                        id="send-message-button"
+                        type="button"
+                    >
+                        Enviar mensaje
+                    </button>
+
+                    <p
+                        class="message-status"
+                        id="message-status"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PANTALLA FINAL -->
+        <section class="screen" id="screen-thanks">
+
+            <div class="content">
+
+                <div class="lily">
+                    🌸
+                </div>
+
+                <h1>
+                    Gracias. ❤️
+                </h1>
+
+                <p class="highlight">
+                    Gracias por ser tan sincera conmigo.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <audio
+        id="background-music"
+        loop
+        preload="metadata"
+    >
+        <source src="audio/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio
+        id="button-click-audio"
+        preload="auto"
+    >
+        <source src="audio/ButtonPlate%20Click%20(Minecraft%20Sound)%20-%20Sound%20Effect%20for%20editing.mp3" type="audio/mpeg">
+    </audio>
+
+    <div
+        class="no-reaction"
+        id="no-reaction"
+        aria-hidden="true"
+    >
+        <img
+            src="assets/gatito%20del%20primer%20NO.gif"
+            alt="Gatito reaccionando"
+        >
+    </div>
+
+    <audio
+        id="no-reaction-audio"
+        preload="auto"
+    >
+        <source src="audio/faahhhhh.mp3" type="audio/mpeg">
+    </audio>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
